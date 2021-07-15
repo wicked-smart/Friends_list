@@ -1,7 +1,7 @@
 function cs50Info(name){
   if(name == "")
     return;
-
+/*
   var ajax = new XMLHttpRequest();
 
   ajax.onreadystatechange = function(){
@@ -12,6 +12,14 @@ function cs50Info(name){
 
   ajax.open('GET', name + '.html', true);
   ajax.send();
+*/
+	
+	fetch(name+'.html')
+	.then(response => response.text())
+	.then(text => {
+		$('#infodiv').html(text);
+
+	});
 
 
 };

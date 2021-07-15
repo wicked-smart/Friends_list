@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: step1
      	run: |
-		  echo "Hello world"
-		  echo "This yaml file is behaving like shit"
+	  echo "Hello world"
+          echo "This yaml file is behaving like shit"
 
