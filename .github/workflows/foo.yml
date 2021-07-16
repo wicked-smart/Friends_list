@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: step2
         run: echo "Hwllo. skdfhsdkjhfs"
+      - name: step3
+        run: echo "ksfksjjfksjfs"
