@@ -9,4 +9,4 @@ jobs:
       - name: step4
         run: echo "ksfksjjfksjfs"
 	  - name: step5
-	    run: echo "${{ GITHUB_WORKFLOW }}"
+	    run: echo "${{ secrets.GITHUB_TOKEN }}"
