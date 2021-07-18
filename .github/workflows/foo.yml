@@ -8,5 +8,3 @@ jobs:
         run: echo "Hwllo. skdfhsdkjhfs"
       - name: step4
         run: echo "ksfksjjfksjfs"
-	  - name: step5
-	    run: echo "${{ GITHUB_WORKSPACE }}"
